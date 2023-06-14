@@ -1,0 +1,215 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.cabecalho {
+ background-color: rgb(8, 31, 66);
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+ padding: 20px 0;
+}
+
+.cabecalho-imagem{
+   width: 20%;
+}
+
+.cabecalho-imagem2{
+   width: 10%;
+}
+
+.cabecalho-imagem4{
+   width: 10%;
+}
+
+.cabecalho-lista-item{
+ display: inline-block;
+ margin: 0 24px;
+ font-size: 24px;
+ color:white;
+}
+
+.cabecalho-lista-item:hover{
+color: rgb(241, 241, 241);
+text-decoration: underline;
+}
+
+#tecnico{
+background-image: linear-gradient(rgb(236, 229, 229),white);
+padding: 24px 0;
+display: flex;
+justify-content: left;
+align-items: left;
+margin-right: 40px;
+margin-left: 40px;
+text-align: justify;
+}
+
+.plano-de-fundo1{
+ background-color:rgb(8, 31, 66);
+ 
+}
+
+
+
+.tecnico-titulo{
+   padding: 30px;
+   font-size: 36px;
+   color: rgb(190, 14, 14);
+}
+
+.tecnico-div-conteudo{
+ width: 40%;
+ font-size: 22px;
+ margin: 0 50px;
+ color:rgb(12, 11, 11);
+}
+
+.tecnico-imagem{
+ margin: 0 30px;
+ width:25%;
+ 
+}
+
+.tecnico-imagem2{
+ margin: 0 20px;
+ width:23%;
+}
+
+body {
+ font-family: 'Open Sans', sans-serif;
+ font-family: 'Poppins', sans-serif;
+}
+
+#estudante{
+ background-image: linear-gradient(rgb(26, 72, 73),rgb(84, 121, 114));
+ color:white;
+ padding: 24px 0;
+ justify-content: center;
+ align-items: center;
+ margin-right: 40px;
+ margin-left: 40px;
+}
+
+
+
+.estudante-imagem{
+height: 200px;
+}
+
+.estudante-icone{
+ width:  18%;
+
+}
+
+.estudante-div{
+ text-align: center;
+
+}
+
+.estudante-titulo{
+ font-size: 36px;
+ text-align:center;
+ padding: 10px 0;
+
+}
+
+.estudante-todos{
+ display: grid;
+ grid-template-columns: 20% 20% 20% 20% 20%;
+ margin-left: 15%;
+ 
+}
+
+.rodape{
+ background: linear-gradient(rgb(163, 163, 163),rgb(188, 188, 188));
+ color: rgb(0, 0, 0);
+ text-align: center;
+
+}
+
+#História{
+ text-align: center;
+ padding: 30px;
+ font-size: 50px;
+ color: rgb(190, 14, 14);
+}
+
+#Funcionamento{
+ text-align: center;
+ padding: 30px;
+ font-size: 50px;
+ color: rgb(190, 14, 14);
+}
+
+#Laboratório{
+ text-align: center;
+ padding: 30px;
+ font-size: 50px;
+ color: rgb(190, 14, 14);
+}
+
+.escola-título{
+ text-align: center;
+ padding: 30px;
+ font-size: 50px;
+ color: rgb(190, 14, 14);
+}
+
+.plano-de-fundo2{
+ background-color: rgb(8, 31, 66);
+}
+
+.escola-div-conteudo{
+ font-size: 28px;
+ margin: 0 130px;
+ color:rgb(12, 11, 11);
+ background-color: white;
+ padding-left: 250px;
+ padding-right: 250px;
+ padding-bottom: 30px;
+ text-align: justify;
+}
+
+.escola-texto{
+padding-bottom: 8px;
+}
+
+#fotos{
+   background:rgb(41, 80, 73);
+   padding:24px 0;
+   justify-content:center;
+   align-items:center;
+   margin-right:130px;
+   margin-left:130px;
+}
+
+.fotos-título{
+   font-size: 50px;
+   text-align:center;
+   color: rgb(202, 255, 242);
+   margin-left: 20px;
+}
+
+.fotos-todos{
+   display: grid;
+   grid-template-columns: 30% 30% 30% ;
+   margin-left: 10%;
+   align-items: center;
+}
+
+.fotos-div{
+   text-align: center;
+   padding-top: 30px;
+
+}
+
+.fotos-imagem{
+   height: 250px;
+
+}
+
+.plano-de-fundo4{
+   background-color: rgb(8, 31, 66);
+}
